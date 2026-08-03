@@ -4,7 +4,8 @@
 import type { Room } from '../types';
 
 // The backend URL. In development, the Express server runs on port 5000.
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://hotel-booking-system-ke1b.onrender.com/api';
 
 // Helper: get the saved JWT token from localStorage.
 const getToken = () => localStorage.getItem('token') || '';
