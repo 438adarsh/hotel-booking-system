@@ -95,11 +95,11 @@ function Login() {
         </p>
 
         {/* Hint for the seeded admin account */}
-        <div className="mt-6 bg-slate-50 border border-slate-200 rounded-lg p-3 text-xs text-gray-600">
+        {/* <div className="mt-6 bg-slate-50 border border-slate-200 rounded-lg p-3 text-xs text-gray-600">
           <p className="font-medium mb-1">Demo admin account:</p>
           <p>Email: admin@gmail.com</p>
           <p>Password: admin123</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
